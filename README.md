@@ -1,7 +1,7 @@
-# AIC vs AICc: Effectiveness Comparison in Model Selection
+# AIC vs AICc: Performance Comparison in Model Selection
 ## Introduction
-   In this repository, simulations were used to compare AIC and AICc on their effectiveness in regression model selection.
-   * Code is written in Python.
+   In this repository, simulations were used to compare AIC and AICc on their performance in regression model selection.
+   * The program is written in Python.
    * Two files are included: 1) aic.py - simulation code; 2) AIC_vs_AICc.png - visualizations of model selection performance.
 
 ## Backgound
@@ -12,11 +12,11 @@ criterion produces a selected model that is close to the best choice. However, t
 and Chih-Ling Tsai derived a bias correction to the Akaike information criterion (AIC) for regression models (Clifford M. Hurvich and 
 Chih-Ling Tsai, 1989). The derived corrected method, called AICc, is of particular use when the sample size is small. And it is shown 
 to be asymptotically efficient if the true model is infinite dimensional and to provide better model order choices than any other asymptotically
-efficient method if the true model is of finite dimension. This project was determined to compare AIC and AICc on their effectiveness
+efficient method if the true model is of finite dimension. This project was determined to compare AIC and AICc on their performance
 in regression model selection with much greater runs of simulations as well as to compare their performance under situations where
 model assumptions are not met.
 
-## Visualizations & Results
+## Visualization & Results
 ![aic_vs_aicc](https://cloud.githubusercontent.com/assets/19921232/17572898/db8a34c2-5f0b-11e6-9b5b-19789a8b8c6b.png)
 
 * The true model order is 3.
