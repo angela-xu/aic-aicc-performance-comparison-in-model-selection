@@ -1,6 +1,6 @@
 # AIC vs AICc: Performance Comparison in Model Selection
 ## Introduction
-   In this repository, simulations were used to compare AIC and AICc on their performance in regression model selection.
+   In this repository, Monte Carlo simulations were used to compare AIC and AICc on their performance in regression model selection (i.e. in choosing the correct model order).
    * The program is written in Python.
    * Two files are included: 1) aic.py - simulation code; 2) AIC_vs_AICc.png - sample visualization of model selection performance.
 
